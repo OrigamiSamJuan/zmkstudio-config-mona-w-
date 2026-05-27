@@ -14,3 +14,5 @@
 ---
 include:
   - board: mona_w
+    cmake-args: "-DCONFIG_ZMK_STUDIO=y"
+    snippet: studio-rpc-usb-uart
